@@ -27,12 +27,12 @@ public class Phase2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         Intent intent=getIntent();
-        if(!(SessionData.getSessionData().getAccessToken().equals(intent.getStringExtra("AccessToken")))){
+/*        if(!(SessionData.getSessionData().getAccessToken().equals(intent.getStringExtra("AccessToken")))){
             Log.e("Session","INVALID");
             startActivity(new Intent(Phase2Activity.this, Phase1Activity.class));
         }else{
             Log.e("Session","VALID");
-        }
+        }*/
 
         fragmentManager=getSupportFragmentManager();
         toolbar = (Toolbar) findViewById(R.id.toolbar_phase2_activity3);

@@ -58,8 +58,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Phase1.Activities.AssistantActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
-
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

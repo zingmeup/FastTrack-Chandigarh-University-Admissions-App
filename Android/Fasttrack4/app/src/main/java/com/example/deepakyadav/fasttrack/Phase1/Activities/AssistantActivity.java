@@ -61,7 +61,6 @@ public class AssistantActivity extends AppCompatActivity {
                 actionBtn.setImageDrawable(getResources().getDrawable(R.drawable.flight));
                 actionBtnVoiceSearch=false;
                 actionBtn.setOnLongClickListener(null);
-
             }
             return true;
         }
@@ -98,7 +97,11 @@ public class AssistantActivity extends AppCompatActivity {
                 }
             }
         });
+        //assistantInput.setOnKeyListener(assistantInputKeyListener);
+    }
 
-        assistantInput.setOnKeyListener(assistantInputKeyListener);
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
