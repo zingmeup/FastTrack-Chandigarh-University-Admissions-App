@@ -23,6 +23,7 @@
     <string name="API_REVIEWS">http://cuadmissions.digihostel.com/review.json</string>
     <string name="API_TRAVEL">http://cuadmissions.digihostel.com/travel.json</string>
     <string name="API_OFFICES">http://cuadmissions.digihostel.com/off.json</string>
+    <string name="API_COURSES2">http://cuadmissions.digihostel.com/coursebrowser.json</string>
     <string name="API_DISTANCE">https://www.distance24.org/route.json?stops=chandigarh|</string>
     <string name="API_GALLERY_CATEGORIES">http://fasttrack.digihostel.com/api/public/categories</string>
     <string name="API_GALLERY_VIDEO_BY_CATEGORY">http://fasttrack.digihostel.com/api/public/category/</string>

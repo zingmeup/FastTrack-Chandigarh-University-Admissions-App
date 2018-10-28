@@ -1,3 +1,4 @@
+package com.example.deepakyadav.fasttrack.Phase1.NetworkOperations;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -6,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -166,14 +166,9 @@ public class NetworkOperations {
 
                                     album[j]=img.getString("img");
                                 }
-
                                 JSONObject coordinates=tempJsonObj.getJSONObject("coordinates");
                                 double lat=coordinates.getDouble("lat");
                                 double lon=coordinates.getDouble("lon");
-
-
-
-
                                 TravellPlannerModel model=new TravellPlannerModel(name, imgsrc,timeopen,timeclose,info1,info2,redirect, album, lat,lon);
                                 TravelPlannerData.getInstance().getTravellPlannerList().add(model);
                                 Log.e("travelplanner-network", "success"+i);
@@ -198,7 +193,7 @@ public class NetworkOperations {
 
     public void fetchCourseStructure(final Activity activity) {
         RequestQueue requestQueue = Volley.newRequestQueue(activity);
-        StringRequest StringRequest = new StringRequest(Request.Method.GET, activity.getResources().getString(R.string.API_COURSES),
+        StringRequest StringRequest = new StringRequest(Request.Method.GET, activity.getResources().getString(R.string.API_COURSES2),
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
