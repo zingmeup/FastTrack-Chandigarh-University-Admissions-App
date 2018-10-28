@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:id="@+id/reqinfoform"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:padding="@dimen/secondary_margin"
+        android:gravity="center"
+        android:text="dummy dsdsa hdkashd kahdaksjdhjdhafkfkjshdad haskdhakdha dkajhadh aksd haskdjhsdka hdak dad hadkjhakdadh kajhdakjd adk ahdkahd "
+        android:textColor="@color/colorPrimaryText"
+        android:layout_margin="@dimen/primary_margin"
+        android:background="@drawable/card_shape_red"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_margin="@dimen/primary_margin"
+        android:background="@drawable/edittext_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/minInput_height_primary"
+        android:hint="Name">
+        <EditText
+            android:id="@+id/form_rif_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_margin="@dimen/primary_margin"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_primary"
+            android:hint="Email">
+            <EditText
+                android:id="@+id/form_rif_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_margin="@dimen/primary_margin"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_primary"
+            android:hint="Phone number">
+            <EditText
+                android:id="@+id/form_rif_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.design.widget.TextInputLayout>
+        <Spinner
+            android:entries="@array/dummy"
+            android:id="@+id/form_rif_disc"
+            android:layout_margin="@dimen/primary_margin"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_primary"></Spinner>
+        <Spinner
+            android:entries="@array/dummy"
+            android:id="@+id/form_rif_prog"
+            android:layout_margin="@dimen/primary_margin"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_primary"></Spinner>
+        <Button
+            android:text="Submit"
+            android:id="@+id/form_rif_sub"
+            android:background="@drawable/btn_shape_yellow"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_primary"/>
+
+</LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:id="@+id/genenqform"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/primary_margin"
+                android:background="@drawable/card_shape_red"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:padding="@dimen/secondary_margin"
+                android:text="fgahgsdg asjdgasdgasjhdgjas hgdjagdja dja gdjad gajsd gaajshdgajhd gajdgajhdg ajhdgjahdg jasdgjashdg asjd ajdg jasdgajdgajhdghadgad gajdgajdgajsdgaj"
+                android:textColor="@color/colorPrimaryText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/secondary_margin"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_shape"
+                    android:hint="First Name"
+                    android:minHeight="@dimen/minInput_height_primary">
+
+                    <EditText
+                        android:id="@+id/form_gif_firstname"
+                        android:lines="1"
+                        android:maxLength="40"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_shape"
+                    android:hint="Last Name"
+                    android:minHeight="@dimen/minInput_height_primary">
+
+                    <EditText
+                        android:id="@+id/form_gif_lastname"
+                        android:lines="1"
+                        android:maxLength="40"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/primary_margin"
+                android:background="@drawable/edittext_shape"
+                android:hint="Mailing Address"
+                android:minHeight="@dimen/minInput_height_primary">
+
+                <EditText
+                    android:id="@+id/form_gif_mailing"
+                    android:lines="1"
+                    android:maxLength="200"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/primary_margin"
+                android:background="@drawable/edittext_shape"
+                android:hint="Phone Number"
+                android:minHeight="@dimen/minInput_height_primary">
+
+                <EditText
+                    android:id="@+id/form_gif_phone"
+                    android:lines="1"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/primary_margin"
+                android:background="@drawable/edittext_shape"
+                android:hint="E-mail"
+                android:minHeight="@dimen/minInput_height_primary">
+
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/form_gif_email"
+                    android:lines="1"
+                    android:maxLength="40"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/primary_margin"
+                android:background="@drawable/edittext_shape"
+                android:gravity="start|top"
+                android:hint="Questions or Queries"
+                android:minHeight="@dimen/minInput_height_primary">
+
+                <EditText
+                    android:id="@+id/form_gif_query"
+                    android:lines="8"
+                    android:maxLength="200"
+                    android:gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:minLines="6" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/form_gif_submit"
+                android:textColor="@color/colorPrimaryText"
+                android:text="Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_shape_yellow"
+                android:gravity="center"
+                android:minHeight="@dimen/minInput_height_primary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="#212121"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/minInput_height_primary">
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/form_switch_rif"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_weight="1"
+            android:text="General Enquirey"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="15sp"
+            android:gravity="center"
+            android:id="@+id/form_switch_gef"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_weight="1"
+            android:text="Reqest Information"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

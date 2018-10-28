@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+        <LinearLayout
+            android:padding="@dimen/primary_margin"
+            android:layout_margin="@dimen/primary_margin"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAlignment="center"
+                android:text="@string/app_name"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textAlignment="center"
+                android:text="Browse among various courses provided by tthe asias's fastest grawing university."
+                android:textColor="@color/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    <android.support.v7.widget.AppCompatAutoCompleteTextView
+        android:maxLines="2"
+        android:id="@+id/courseBrowser_search"
+        android:layout_margin="@dimen/primary_margin"
+        android:background="@drawable/edittext_shape"
+        android:selectAllOnFocus="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/minInput_height_primary" />
+    <FrameLayout
+        android:id="@+id/courseBrowser_placeholder"
+        android:visibility="visible"
+        android:elevation="2dp"
+        android:layout_margin="@dimen/primary_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_margin="@dimen/primary_margin"
+            android:src="@drawable/ic_chat"
+            android:layout_gravity="end|bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ScrollView
+        android:id="@+id/courseBrowser_details"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:background="@drawable/edittext_shape"
+        android:layout_margin="@dimen/primary_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/courseBrowser_discpline"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary"
+            android:text="Discpline"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/courseBrowser_programname"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary"
+            android:text="Bachelor of computer Science Engineering"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary">
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/minInput_height_secondary"
+                android:textStyle="bold"
+                android:text="Short name"/>
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/courseBrowser_shortname"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/minInput_height_secondary"
+                android:text="BCA"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary">
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/minInput_height_secondary"
+                android:textStyle="bold"
+                android:text="Duration"/>
+            <TextView
+            android:layout_weight="1"
+                android:gravity="center"
+            android:id="@+id/courseBrowser_duration"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary"
+                android:text="3.0 years"/>
+
+        </LinearLayout>
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/secondary_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/minInput_height_secondary">
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary"
+            android:textStyle="bold"
+            android:text="Semester Fee"/>
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/courseBrowser_semesterfee"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary"
+            android:text="27000 Rs \n 1100 Dollars"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary">
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="@dimen/minInput_height_secondary"
+                android:textStyle="bold"
+                android:text="Eligibity"/>
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/courseBrowser_eligibility"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="@dimen/minInput_height_secondary"
+                android:text="50% aggregate mardasd sdsad asd dasdasd ad ad adads s asda sasd d asdsaks in 10+2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/secondary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/minInput_height_secondary">
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/minInput_height_secondary"
+                android:textStyle="bold"
+                android:text="Program code"/>
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/courseBrowser_programcode"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/minInput_height_secondary"
+                android:text="CSP201"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

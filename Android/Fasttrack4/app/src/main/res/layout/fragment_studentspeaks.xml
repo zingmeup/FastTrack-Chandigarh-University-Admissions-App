@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ListView
+        android:animateLayoutChanges="true"
+        android:id="@+id/studentspeak_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/primary_margin"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:dividerHeight="@dimen/primary_margin"
+        android:elevation="4dp" />
+    <LinearLayout
+        android:id="@+id/year_selector"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#212121"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="@dimen/secondary_margin"
+            android:textSize="25sp"
+            android:id="@+id/ss_2017"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2017"
+            android:textColor="@color/colorPrimaryText"/>
+        <TextView
+            android:padding="@dimen/secondary_margin"
+            android:id="@+id/ss_2016"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="2016"
+        android:textColor="@color/colorPrimaryText"/>
+        <TextView
+            android:padding="@dimen/secondary_margin"
+            android:id="@+id/ss_2015"
+        android:gravity="center"
+        android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        android:text="2015"
+        android:textColor="@color/colorPrimaryText"/>
+        <TextView
+            android:padding="@dimen/secondary_margin"
+            android:id="@+id/ss_iitnit"
+        android:gravity="center"
+        android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        android:text="IIT/NIT"
+        android:textColor="@color/colorPrimaryText"/>
+        <TextView
+            android:padding="@dimen/secondary_margin"
+            android:id="@+id/ss_visitors"
+        android:gravity="center"
+        android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        android:text="Visitors"
+        android:textColor="@color/colorPrimaryText"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

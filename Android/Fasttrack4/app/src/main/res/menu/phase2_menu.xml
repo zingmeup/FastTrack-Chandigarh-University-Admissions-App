@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_notification"
+        android:title="Notifications"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_forms_1"
+        android:title="Request Forms"
+        app:showAsAction="never"/>
+    <item
+        android:icon="@drawable/ic_information"
+        android:title="About us"
+        app:showAsAction="never"/>
+    <item
+        android:icon="@drawable/ic_man_user"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@drawable/drawer_header_shape"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:elevation="4dp">
+            <TextView
+                android:text="Chandigarh University"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryText"/>
+            <TextView
+                android:text="FastTrack Admissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryText"/>
+            <TextView
+                android:text="2019-2020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryText"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <ListView
+                android:id="@+id/drawerStaticListView_phase1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout>
+</LinearLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/ic_back_arrow"
+        android:layout_gravity="bottom|end"
+        android:id="@+id/phase1_drawer_back_btn"
+        android:layout_margin="28dp"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        app:backgroundTint="@color/colorPrimary"/>
+
+</FrameLayout>

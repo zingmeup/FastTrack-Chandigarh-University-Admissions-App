@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <android.support.design.widget.TextInputLayout
+        android:background="@drawable/edittext_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/primary_margin"
+        android:minHeight="@dimen/minInput_height_primary"
+        android:hint="Name">
+        <EditText
+            android:id="@+id/joinus_register_name"
+            android:lines="1"
+            android:maxLength="80"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:background="@drawable/edittext_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/primary_margin"
+        android:minHeight="@dimen/minInput_height_primary"
+        android:hint="Email">
+        <EditText
+            android:id="@+id/joinus_register_email"
+            android:lines="1"
+            android:maxLength="40"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:background="@drawable/edittext_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/primary_margin"
+        android:minHeight="@dimen/minInput_height_primary"
+        android:hint="Mobile number">
+        <EditText
+            android:id="@+id/joinus_register_mobile"
+            android:lines="1"
+            android:maxLength="10"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:background="@drawable/edittext_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/primary_margin"
+        android:minHeight="@dimen/minInput_height_primary"
+        android:hint="Discipline">
+
+    <Spinner
+        android:entries="@array/dummy"
+        android:layout_margin="@dimen/primary_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/minInput_height_primary"
+        android:id="@+id/joinus_register_discipline"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:background="@drawable/edittext_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/primary_margin"
+        android:minHeight="@dimen/minInput_height_primary"
+        android:hint="Discipline">
+
+    <Spinner
+        android:entries="@array/dummy"
+        android:layout_margin="@dimen/primary_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/minInput_height_primary"
+        android:id="@+id/joinus_register_program"/>
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:layout_margin="@dimen/primary_margin"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_shape"
+            android:hint="Type in your City">
+            <android.support.v7.widget.AppCompatAutoCompleteTextView
+                android:lines="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_shape"
+                android:minHeight="@dimen/minInput_height_primary"
+                android:id="@+id/joinus_register_city"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/joinus_register_dobView"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/primary_margin"
+            android:minHeight="@dimen/minInput_height_primary">
+            <TextView
+                android:text="date of birth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/joinus_register_dob"
+                android:text="mm/dd/yyyy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

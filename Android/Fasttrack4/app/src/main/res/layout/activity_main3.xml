@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phase1.Activities.Main3Activity">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_gravity="bottom"
+            android:id="@+id/toolbar_phase2_activity3"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <FrameLayout
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:onClick="showDialog">
+                <ImageView
+                    android:layout_gravity="center|start"
+                    android:id="@+id/drawer_btn_phase2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_menu"/>
+            </FrameLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    <include layout="@layout/content_main3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/assistant_fab"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_chat" />
+
+</android.support.design.widget.CoordinatorLayout>

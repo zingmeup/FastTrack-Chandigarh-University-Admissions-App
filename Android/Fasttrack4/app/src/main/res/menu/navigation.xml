@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/navigation_branding"
+        android:icon="@drawable/ic_confused_face"
+        android:title="@string/title_branding_short" />
+
+    <item
+        android:id="@+id/navigation_studentspreak"
+        android:icon="@drawable/ic_graduate_student_avatar"
+        android:title="@string/title_studentspeak_short" />
+    <item
+        android:id="@+id/navigation_course"
+        android:icon="@drawable/ic_folder_1"
+        android:title="@string/title_course_short" />
+    <item
+        android:id="@+id/navigation_joinus"
+        android:icon="@drawable/ic_man_user"
+        android:title="@string/title_join_short" />
+
+</menu>

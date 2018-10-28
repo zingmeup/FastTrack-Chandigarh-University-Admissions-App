@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phase1.Wizzard.Wizzard"
+    android:background="#000">
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/wiz4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:background="#36000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Become a part of Chandigarh University"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="bottom|start"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="@dimen/secondary_margin"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/secondary_margin"
+                android:background="#308c41"
+                android:padding="@dimen/primary_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="EXCEPTIONAL RANKING"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="@dimen/secondary_margin"
+                android:background="#308c41"
+                android:padding="@dimen/primary_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="FASTEST GROWING"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="@dimen/secondary_margin"
+                android:background="#308c41"
+                android:padding="@dimen/primary_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="BEST PLACEMENTS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

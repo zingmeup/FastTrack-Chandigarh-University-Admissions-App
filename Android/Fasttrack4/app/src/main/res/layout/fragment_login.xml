@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_man_user"/>
+        <android.support.design.widget.TextInputLayout
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/primary_margin"
+            android:minHeight="@dimen/minInput_height_primary"
+            android:hint="Email or Fasttrack ID">
+            <EditText
+                android:id="@+id/joinus_login_userid"
+                android:maxLength="40"
+                android:lines="1"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:background="@drawable/edittext_shape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/primary_margin"
+            android:minHeight="@dimen/minInput_height_primary"
+            android:hint="Password">
+            <EditText
+                android:id="@+id/joinus_login_password"
+                android:maxLength="10"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

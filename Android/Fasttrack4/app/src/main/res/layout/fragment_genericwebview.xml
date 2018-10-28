@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phase1.Activities.Main2Activity"
+    android:background="@color/colorPrimaryText">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:layout_weight="1"
+            android:id="@+id/webview_generic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <android.support.v7.widget.Toolbar
+            app:titleTextColor="@color/colorPrimaryText"
+            android:id="@+id/toolbar_phase1_activity2"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.Toolbar>
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back_btn_activity2"
+        android:layout_gravity="bottom|right"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="@color/colorPrimaryText"
+        android:src="@drawable/ic_back_arrow_red"/>
+    <ProgressBar
+        android:id="@+id/main2activity_progressbar"
+        android:progressTint="@color/colorWhite"
+        android:layout_gravity="bottom"
+        android:progress="40"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"/>
+
+
+</FrameLayout>

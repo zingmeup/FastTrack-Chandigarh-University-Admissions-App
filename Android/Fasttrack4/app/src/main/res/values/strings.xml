@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Fasttrack</string>
+    <string name="title_course_short">Courses</string>
+    <string name="title_course_full">Browser Courses</string>
+    <string name="title_join_short">Join Us</string>
+    <string name="title_join_full">Join Us</string>
+    <string name="title_branding_short">Why CU</string>
+    <string name="title_branding_full">Why CU</string>
+    <string name="title_studentspeak_short">Students</string>
+    <string name="title_studentspeak_full">Students Speak</string>
+    <string name="scholarships">Scholarships</string>
+    <string name="video_gallery">Video Gallery</string>
+    <string name="photo_gallery">Photo Gallery</string>
+    <string name="nearby_branches">Nearby Branches</string>
+    <string name="request_forms">Request Forms</string>
+    <string name="about_us">About us</string>
+
+    <string name="API_DISC">http://172.17.60.27/api/Admission/DesciplineList</string>
+    <string name="API_PROG">http://172.17.60.27/api/Admission/ProgramList?Descipline=</string>
+    <string name="API_CITY">http://172.17.60.27/api/Admission/CityList?City=</string>
+    <string name="API_VALIDATE">http://172.17.60.27/api/mobapp/FastTrackCredentialValidate?</string>
+    <string name="API_COURSES">http://172.17.60.27/api/Admission/ProgramList?ProgramName=</string>
+    <string name="API_REVIEWS">http://cuadmissions.digihostel.com/review.json</string>
+    <string name="API_TRAVEL">http://cuadmissions.digihostel.com/travel.json</string>
+    <string name="API_OFFICES">http://cuadmissions.digihostel.com/off.json</string>
+    <string name="API_DISTANCE">https://www.distance24.org/route.json?stops=chandigarh|</string>
+    <string name="API_GALLERY_CATEGORIES">http://fasttrack.digihostel.com/api/public/categories</string>
+    <string name="API_GALLERY_VIDEO_BY_CATEGORY">http://fasttrack.digihostel.com/api/public/category/</string>
+    <string name="API_GALLERY_PHOTO_BY_CATEGORY">http://fasttrack.digihostel.com/api/public/photo/</string>
+    <string name="API_GALLERY_PLAYER">http://fasttrack.digihostel.com/player.php?code=</string>
+    <string name="API_BASE">http://fasttrack.digihostel.com/</string>
+    <string-array name="dummy">
+        <item>TOm</item>
+        <item>Dick</item>
+        <item>Harry</item>
+        <item>Justin</item>
+        <item>Salena</item>
+        <item>Liam</item>
+    </string-array>
+    <string name="title_activity_main3">Main3Activity</string>
+</resources>

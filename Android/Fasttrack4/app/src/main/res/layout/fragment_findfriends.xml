@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/primary_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryText"
+                android:text="@string/title_studentspeak_full"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:padding="@dimen/secondary_margin"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <AutoCompleteTextView
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:padding="@dimen/secondary_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_shape"
+                    android:minHeight="@dimen/minInput_height_secondary"/>
+                <Button
+                    android:text="Find"
+                    android:layout_weight="0"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:padding="@dimen/secondary_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_shape_yellow"
+                    android:minHeight="@dimen/minInput_height_secondary"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/findfriend_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@color/colorPrimaryLight"
+                android:orientation="vertical"
+                android:padding="@dimen/secondary_margin"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:textColor="@color/colorPrimaryText"
+                    android:text="12"
+                    android:textSize="40sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My City"
+                    android:textColor="@color/colorPrimaryText"/>
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/colorPrimaryLight"
+                android:orientation="vertical"
+                android:padding="@dimen/secondary_margin"
+                android:layout_margin="@dimen/secondary_margin"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:textColor="@color/colorPrimaryText"
+                    android:text="56"
+                    android:textSize="40sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My State"
+                    android:textColor="@color/colorPrimaryText"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ListView
+            android:layout_margin="@dimen/primary_margin"
+            android:id="@+id/findfriend_listView"
+            android:layout_width="match_parent"
+            android:dividerHeight="@dimen/primary_margin"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+
+

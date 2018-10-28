@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/edittext_shape"
+    android:elevation="4dp"
+    android:layout_margin="@dimen/primary_margin"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/primary_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="40dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <com.android.volley.toolbox.NetworkImageView
+                android:src="@drawable/ic_man_user"
+                android:id="@+id/author_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@android:drawable/btn_star_big_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/rating"
+                android:textColor="@color/colorSecondaryText"
+                android:text=" 4.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/secondary_margin"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="end"
+            android:id="@+id/author"
+            android:textColor="@color/colorSecondaryText"
+            android:textStyle="bold"
+            android:text="fsfsdfsdfsd fksjhfkfhskdjfhs dkjfhsd fks fjksdfhsj k"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="end"
+            android:id="@+id/placed"
+            android:textColor="@color/colorSecondaryText"
+            android:text="@string/title_studentspeak_short"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/comment"
+            android:textColor="@color/colorSecondaryText"
+            android:text="dsadsada da d asd asd adas dadadas dad asdas da da da dasd adadas dadadas dad asdas da da da dasd ad  asd as das da sda dasda sd asd asd as das da sd asd as da d asd asd asd asd asd asd as da da sda sd asd asd asd asd as da da d asd as da sd ad a d"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

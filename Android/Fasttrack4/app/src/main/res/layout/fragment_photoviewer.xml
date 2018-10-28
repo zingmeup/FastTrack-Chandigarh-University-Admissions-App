@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/photoviewer_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:drawingCacheQuality="high"
+        android:src="@drawable/wiz1" />
+    <LinearLayout
+        android:alpha="0.5"
+        android:layout_margin="@dimen/primary_margin"
+        android:padding="@dimen/primary_margin"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/photoviewer_prev"
+            android:layout_margin="@dimen/primary_margin"
+            android:padding="@dimen/primary_margin"
+            android:src="@android:drawable/ic_media_previous"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize" />
+        <ImageView
+            android:id="@+id/photoviewer_play"
+            android:layout_margin="@dimen/primary_margin"
+            android:padding="@dimen/primary_margin"
+            android:src="@android:drawable/ic_media_play"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize" />
+        <ImageView
+            android:id="@+id/photoviewer_next"
+            android:layout_margin="@dimen/primary_margin"
+            android:padding="@dimen/primary_margin"
+            android:src="@android:drawable/ic_media_next"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize" />
+    </LinearLayout>
+
+
+</FrameLayout>

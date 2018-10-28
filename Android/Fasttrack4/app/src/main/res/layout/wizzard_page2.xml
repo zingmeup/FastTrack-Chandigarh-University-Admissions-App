@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phase1.Wizzard.Wizzard"
+    android:background="#000">
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/wiz7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_gravity="bottom|start"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:padding="@dimen/primary_margin"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryText"
+                        android:gravity="center"
+                        android:text="MORE THAN"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textSize="40sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryText"
+                        android:gravity="center"
+                        android:text="492"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryText"
+                        android:gravity="center"
+                        android:text="COMPANIES FOR PLACEMENTS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            <LinearLayout
+                android:padding="@dimen/primary_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="MORE THAN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="5124"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="PLACEMENTS OFFERED IN CAMPUS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:padding="@dimen/primary_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="AMAZON"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="31.77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="LPA HIGHEST PACKAGE OFFERED"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:padding="@dimen/primary_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="MANAGEMENT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    android:gravity="center"
+                    android:text="LPA HIGHEST PACKAGE OFFERED"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <Space
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

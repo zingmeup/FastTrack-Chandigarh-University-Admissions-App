@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView app:cardCornerRadius="10dp"
+    android:layout_margin="@dimen/primary_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_shape"
+    android:padding="@dimen/secondary_margin"
+    android:layout_margin="@dimen/primary_margin">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/travel_row__back"
+            android:scaleType="fitXY"
+            android:src="@drawable/back1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+        <TextView
+            android:id="@+id/travel_row__name"
+            android:textStyle="bold"
+            android:text="Rock Garden"
+            android:layout_gravity="center|bottom"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center|bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/travel_row__timing"
+            android:text="09-17"
+            android:layout_gravity="top|end"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="center|bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/travel_row__info"
+        android:gravity="center"
+        android:layout_margin="@dimen/secondary_margin"
+        android:textColor="@color/colorSecondaryText"
+        android:text="dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda dasdsadasdasda "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.android.volley.toolbox.NetworkImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/facebook"
+                android:id="@+id/img1"
+                android:layout_width="180dp"
+                android:layout_height="100dp" />
+            <com.android.volley.toolbox.NetworkImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/instagram"
+                android:id="@+id/img2"
+                android:layout_width="180dp"
+                android:layout_height="100dp" />
+            <com.android.volley.toolbox.NetworkImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/googleplus"
+                android:id="@+id/img3"
+                android:layout_width="180dp"
+                android:layout_height="100dp" />
+            <com.android.volley.toolbox.NetworkImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/twitter"
+                android:id="@+id/img4"
+                android:layout_width="180dp"
+                android:layout_height="100dp" />
+            <com.android.volley.toolbox.NetworkImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/whatsapp"
+                android:id="@+id/img5"
+                android:layout_width="180dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_margin="@dimen/primary_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/knowmore"
+            android:gravity="start"
+            android:layout_weight="1"
+            android:text="Know more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/maps"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:text="Show on Maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

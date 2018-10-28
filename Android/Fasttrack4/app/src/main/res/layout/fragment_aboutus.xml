@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorSecondaryDark">
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/back1"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:onClick="intentChooser"
+                android:id="@+id/social_fb"
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:elevation="2dp"
+                app:cardCornerRadius="20dp">
+                <ImageView
+                    android:background="@drawable/circle_shape_40"
+                    android:layout_margin="@dimen/primary_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/facebook"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:onClick="intentChooser"
+                android:id="@+id/social_insta"
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:elevation="2dp"
+                app:cardCornerRadius="20dp">
+            <ImageView
+
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/instagram"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:onClick="intentChooser"
+                android:id="@+id/social_whatsapp"
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:elevation="2dp"
+                app:cardCornerRadius="20dp">
+            <ImageView
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/whatsapp"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:onClick="intentChooser"
+                android:id="@+id/social_googleplus"
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:elevation="2dp"
+                app:cardCornerRadius="20dp">
+            <ImageView
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/googleplus"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:onClick="intentChooser"
+                android:id="@+id/social_twitter"
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:elevation="2dp"
+                app:cardCornerRadius="20dp">
+            <ImageView
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twitter"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:onClick="intentChooser"
+                android:id="@+id/social_skype"
+                android:layout_margin="@dimen/primary_margin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:elevation="2dp"
+                app:cardCornerRadius="20dp">
+                <ImageView
+                    android:layout_margin="@dimen/primary_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/skype"/>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/primary_margin"
+        android:layout_weight="1"
+        android:background="@drawable/card_shape"
+        android:elevation="4dp"
+        android:padding="@dimen/primary_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="Get In Touch"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chandigarh University"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email: admissions@cumail.in"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: 1800 123 123"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NH-95 Gharuan Mohali, Punjab 140413 (India)"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="General Helpline Number:9876543212"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Toll free number: 1800 3124 325"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/aboutus_viewongoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/primary_margin"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_map" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="View on Google Maps"
+                        android:textColor="@color/colorSecondaryText"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/secondary_margin"
+                android:background="@drawable/card_shape"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="General Helpline"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_action_call" />
+
+                    <TextView
+                        android:onClick="intentDial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+911603044444" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_action_call" />
+
+                    <TextView
+                        android:onClick="intentDial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+9118002000025" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/ic_dialog_email" />
+
+                    <TextView
+                        android:onClick="intentMail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="info@cumail.in" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/secondary_margin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/secondary_margin"
+                android:background="@drawable/card_shape"
+                android:elevation="2dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Admission Helpline"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_action_call" />
+
+                    <TextView
+                        android:onClick="intentDial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+919915999224" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_action_call" />
+
+                    <TextView
+                        android:onClick="intentDial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+919115408851" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_action_call" />
+
+                    <TextView
+                        android:onClick="intentDial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+918146651550" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_action_call" />
+
+                    <TextView
+                        android:onClick="intentDial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+911723014960" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/ic_dialog_email" />
+
+                    <TextView
+                        android:onClick="intentMail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="admissions@cumail.in" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/secondary_margin"
+                android:elevation="2dp"
+                android:background="@drawable/card_shape"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/secondary_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="International Admissions Helpline"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Block-9, 2nd Floor, Chandigarh University, Gharuan Mohali"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chandigarh-Ludhiana Nighway 95, Punjab, India"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_action_call" />
+
+                    <TextView
+                        android:onClick="intentDial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+919501900888" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_action_call" />
+
+                    <TextView
+                        android:onClick="intentDial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+917087452222" />
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:src="@android:drawable/sym_action_call" />
+
+                <TextView
+                    android:onClick="intentDial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="+918146651669" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@drawable/whatsapp" />
+
+                    <TextView
+                        android:onClick="intentChooser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+918146674018" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@drawable/skype" />
+
+                    <TextView
+                        android:onClick="intentChooser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="ChandigarhUniversity" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/sym_call_incoming" />
+
+                    <TextView
+                        android:onClick="intentChooser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="+918146651669" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:src="@android:drawable/ic_dialog_email" />
+
+                    <TextView
+                        android:onClick="intentMail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/secondary_margin"
+                        android:gravity="center"
+                        android:text="international@cumail.in" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="@dimen/secondary_margin"
+                android:padding="@dimen/secondary_margin"
+                android:orientation="vertical"
+                android:background="@drawable/card_shape"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="Girls Hostel" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="+918146651563 \n+917087118102" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="Boys Hostel" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="+917087456666 \n+918146278666" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="Transport" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="+918146651560 \n+918146651659" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="Shuttle service" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/secondary_margin"
+                    android:gravity="center"
+                    android:text="+918146651641 \n+918146651619" />
+            </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
