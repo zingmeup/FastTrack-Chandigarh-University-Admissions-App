@@ -88,7 +88,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
 
                 });
@@ -123,7 +123,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
                 });
         requestQueue.add(StringRequest);
@@ -184,7 +184,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
                 });
         requestQueue.add(StringRequest);
@@ -218,7 +218,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
                 });
         requestQueue.add(StringRequest);
@@ -266,7 +266,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
                 });
         requestQueue.add(StringRequest);
@@ -314,7 +314,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
                 });
         requestQueue.add(StringRequest);
@@ -358,7 +358,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
                 });
         requestQueue.add(StringRequest);
@@ -406,7 +406,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
                 });
         requestQueue.add(StringRequest);
@@ -595,7 +595,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
 
                 });
@@ -696,7 +696,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
 
                 });
@@ -767,7 +767,7 @@ public class NetworkOperations {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(activity, error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, "Check internet connection", Toast.LENGTH_SHORT).show();
                     }
 
                 });

@@ -197,7 +197,7 @@ public class Main2Activity extends AppCompatActivity {
             public void onProgressChanged(WebView view, int newProgress) {
                 super.onProgressChanged(view, newProgress);
                 if(newProgress==100){
-                    Toast.makeText(Main2Activity.this, "Loaded", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(Main2Activity.this, "Loaded", Toast.LENGTH_SHORT).show();
                     toolbar.setVisibility(View.GONE);
                     progressBar.setVisibility(View.GONE);
                 }else{

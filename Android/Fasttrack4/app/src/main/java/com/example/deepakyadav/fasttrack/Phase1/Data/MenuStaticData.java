@@ -13,12 +13,12 @@ public class MenuStaticData {
     public MenuStaticData() {
         menuListDrawer2=new ArrayList<MenuModel>();
         menuListDrawer2.add(new MenuModel("Video Gallery", R.drawable.ic_youtube, false, true, "","VideoGalleryFragment"));
-        menuListDrawer2.add(new MenuModel("Photo Gallery", R.drawable.ic_gallery, false, true, "http://cuadmissions.digihostel.com","PhotoGalleryFragment"));
+        menuListDrawer2.add(new MenuModel("Photo Gallery", R.drawable.ic_gallery, false, true, "http://cuadmissions.zingme.cf","PhotoGalleryFragment"));
         menuListDrawer2.add(new MenuModel("This is Us", R.drawable.ic_trophy, true, false, "http://cuchd.in",""));
         menuListDrawer2.add(new MenuModel("Students Speak", R.drawable.ic_graduate, false, true, "","StudentSpeakFragment"));
-        menuListDrawer2.add(new MenuModel("How to Reach", R.drawable.ic_placeholder, true, false, "http://cuadmissions.digihostel.com/howtoreach.html",""));
+        menuListDrawer2.add(new MenuModel("How to Reach", R.drawable.ic_placeholder, true, false, "http://cuadmissions.zingme.cf/howtoreach.html",""));
         menuListDrawer2.add(new MenuModel("Explore University", R.drawable.ic_team, false, true, "","ExploreFragment"));
-        menuListDrawer2.add(new MenuModel("Travel Planner", R.drawable.ic_map, false, true, "http://cuadmissions.digihostel.com","TravelPlannerFragment"));
+        menuListDrawer2.add(new MenuModel("Travel Planner", R.drawable.ic_map, false, true, "http://cuadmissions.zingme.cf","TravelPlannerFragment"));
         menuListDrawer2.add(new MenuModel("Find a Friend", R.drawable.ic_team_1, false, true, "","FindFriendsFragment"));
         menuListDrawer2.add(new MenuModel("Game Box", R.drawable.ic_joystick, false, true, "","GamesFragment"));
         menuListDrawer1=new ArrayList<>();

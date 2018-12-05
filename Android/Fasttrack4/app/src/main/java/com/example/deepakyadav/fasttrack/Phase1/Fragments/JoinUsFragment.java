@@ -65,7 +65,9 @@ public class JoinUsFragment extends Fragment {
         @Override
         public void onClick(View view) {
             if(loginFragment.loginVerifier()){
-                Toast.makeText(getActivity(), "All okay!", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "All okay!", Toast.LENGTH_SHORT).show();
+            }else {
+                Toast.makeText(getActivity(), "tester123, password12", Toast.LENGTH_SHORT).show();
             }
 
 
@@ -99,7 +101,7 @@ public class JoinUsFragment extends Fragment {
         public void onClick(View view) {
             Toast.makeText(getActivity(), "Register", Toast.LENGTH_SHORT).show();
             if (registerFragment.registerVerifier()){
-                Toast.makeText(getActivity(), "All Ok", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), "All Ok", Toast.LENGTH_SHORT).show();
 
             }
 
