@@ -1,0 +1,300 @@
+[
+  {
+    "state": "Himachal Pradesh",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-hp.jpg",
+    "contacts": [
+      {
+        "city": "Palampur",
+        "add": "Shop No 5, Mittar Mandal Complex, Opp. Surbhi Hotel, Ghuggar Road, palampu",
+        "person": "ANKUR BHATNAGAR",
+        "phone": "+91-8626884488",
+        "phone2": "+91-8146651519"
+      },
+      {
+        "city": "Shimla",
+        "add": "Arpit Appartment,Old Chestereon No 1, Tolland,opposite Forest Head Office,Shimla(177001",
+        "person": "Kamal Kumar",
+        "phone": "+91-9816984848",
+        "phone2": "+918146651519"
+      },
+      {
+        "city": "Mandi",
+        "add": "Opposite Bank of India ATM,Moti Bazar Mandi.HP.17500",
+        "person": "Chetan Sharma",
+        "phone": "+91- 8894707973",
+        "phone2": "+91-8146651519"
+      },
+      {
+        "city": "Hamirpur",
+        "add": " City Tower,Shop no.1,F.F., Near Canara Bank, Hamirpur (HP",
+        "person": "Sachin Kumar",
+        "phone": "+91-9736296458",
+        "phone2": "+91-8146651519"
+      }
+    ]
+  },
+  {
+    "state": "Delhi",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-delhi.jpg",
+    "contacts": [
+      {
+        "city": "Delhi",
+        "add": "30,Basement,Central Market,Punjabi Bagh West,New Delhi-11002",
+        "person": "Devender Rustagi",
+        "phone": "+91-9650012670",
+        "phone2": "+91-99159-99224"
+      }
+    ]
+  },
+  {
+    "state": "Punjab",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-punjab.jpg",
+    "contacts": [
+      {
+        "city": "CHANDIGARH",
+        "add": "SCO-223 First Floor, Sector - 36 D, Chandigarh - 160036",
+        "person": "Hamandeep Singh",
+        "phone": "+91-9915999223",
+        "phone2": "0172-3014960"
+      },
+      {
+        "city": "LUDHIANA",
+        "add": "SCO-11,LOWER GROUND,MODEL TOWN,EXTENSION,LUDHIAN",
+        "person": "Piyush Rattan",
+        "phone": "+91-8146651541",
+        "phone2": "+91-9915999224"
+      },
+      {
+        "city": "BATHINDA",
+        "add": "Guru Nanak Complex, 100 feet road, near ghode wala chowk, Bathinda",
+        "person": "Harmandeep Singh",
+        "phone": "+91-8146676296",
+        "phone2": "0164-5011063"
+      },
+      {
+        "city": "Amritsar",
+        "add": "36-A Rani ka Bagh adjoining CCD Amritsar 14300",
+        "person": "Sahil Kaushal",
+        "phone": "+91-7087117945",
+        "phone2": "+91-8146651541"
+      }
+    ]
+  },
+  {
+    "state": "Rajasthan",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-rajasthan.jpg",
+    "contacts": [
+      {
+        "city": "Jaipur",
+        "add": "105, 1st Floor,Apex mall,tonk road, jaipur(Rajasthan",
+        "person": "Subhash Chand Sharma",
+        "phone": "+91-82391-99991",
+        "phone2": "0141-4009991"
+      }
+    ]
+  },
+  {
+    "state": "Haryana",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-haryana.jpg",
+    "contacts": [
+      {
+        "city": "Karnal",
+        "add": "sco 357, 1st floor, mugal canal, Karnal , 13200",
+        "person": "Amit Kumar",
+        "phone": "+91-9034430144",
+        "phone2": "+91-99159-99224"
+      },
+      {
+        "city": "Hissar",
+        "add": "DSB 112, Green Square Market Cue -1 , Hissar(125001",
+        "person": "Rajesh Kumar",
+        "phone": "+91-7404415151",
+        "phone2": "+91-9034430144"
+      }
+    ]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-uttarpradesh.jpg",
+    "contacts": [
+      {
+        "city": "SAHARANPUR",
+        "add": "FF-3B, Parsvnath Plaza, Court Road, Saharanpur -24700",
+        "person": "Sanjeev Kumar",
+        "phone": "+91-8054225966",
+        "phone2": "+91-9026378040"
+      },
+      {
+        "city": "LUCKNOW",
+        "add": "D-422, Sahara Plaza, near Patrakpuram crossing, gomti nagar, Lucknow 22601",
+        "person": "Ravi Shukla",
+        "phone": "+91-9026378040",
+        "phone2": "+91-9956668414"
+      },
+      {
+        "city": "VARANASI",
+        "add": "Shop No 33, 1st Floor , Kuber Mall, Rathyatra, Varanasi -22101",
+        "person": "Rahul Kumar",
+        "phone": "+91-93357-77771",
+        "phone2": "+91-99159-99224"
+      }
+    ]
+  },
+  {
+    "state": "Madhyapradesh",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-madhyapradesh.jpg",
+    "contacts": [
+      {
+        "city": "INDORE",
+        "add": "Office No-220,2nd Floor,Orbit Mall,A.B.ROAD,VIJAY NAGAR indore -45201",
+        "person": "RAJAT KULSHRESTH",
+        "phone": "+91-9981152381",
+        "phone2": "0731-4246510"
+      }
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-westbengal.jpg",
+    "contacts": [
+      {
+        "city": "KOLKATA",
+        "add": "Office No.-401,4th Floor,Matrix Tower,DN-24,Sector-5,Salt Lake City,Kolkata 700091",
+        "person": "Dipankar Shome",
+        "phone": "+91-9831050902",
+        "phone2": "+91-9915999224"
+      }
+    ]
+  },
+  {
+    "state": "Uttaranchal",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-uttaranchal.jpg",
+    "contacts": [
+      {
+        "city": "Dehradun",
+        "add": "Shiva Palace,Office no.20-21-22,2nd Floor,57/19,Rajpur Road,opposite Secretariat,Dehradun(248001",
+        "person": "Pankaj Sharma",
+        "phone": "+91-8755557959",
+        "phone2": "+91-99159-99224"
+      }
+    ]
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-jk.jpg",
+    "contacts": [
+      {
+        "city": "Jammu",
+        "add": "PALACE ROAD,OPP.FIRE STATION,KACHHI CHAWNI,JAMMU(J&amp;K)",
+        "person": "Karan Kapoor",
+        "phone": "+91-94192-21148",
+        "phone2": "0-19125-20596"
+      },
+      {
+        "city": "Srinagar",
+        "add": "Raj Bagh Srinagar near Aakash Coaching Centre, Srinaga",
+        "person": "Arvind Sharma",
+        "phone": "+91-7006313603",
+        "phone2": "+91-9419221148"
+      }
+    ]
+  },
+  {
+    "state": "Manipur",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-manipur.jpg",
+    "contacts": [
+      {
+        "city": "IMPHAL",
+        "add": "2nd Floor, sagolband Thangjam Leirak , opposite Bijoy Gobinda NRL oil pump Imphal West - 795001",
+        "person": "Manipur TOURANGBAM DERIK",
+        "phone": "+91-9612901652",
+        "phone2": "+91-8811825181"
+      }
+    ]
+  },
+  {
+    "state": "Telangana",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-telangana.jpg",
+    "contacts": [
+      {
+        "city": "Hyderabad",
+        "add": "6-3-887, 2nd Floor, MCP Arcade, Raj Bhavan Road, Somajiguda hyderabad",
+        "person": "Kompelli Kranthi Kumar",
+        "phone": "+91-89782-95401",
+        "phone2": "+91-99159-99224"
+      }
+    ]
+  },
+  {
+    "state": "Bihar",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-bihar.jpg",
+    "contacts": [
+      {
+        "city": "Patna",
+        "add": "Shop No. 115, 1st floor, Maa Bhagwati complex boring road crossing, Patna(Bihar) 800001",
+        "person": "Sidartha kumar",
+        "phone": "+91-9888994255",
+        "phone2": "+91-8294859598"
+      }
+    ]
+  },
+  {
+    "state": "Jharkhand",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-jharkhand.jpg",
+    "contacts": [
+      {
+        "city": "Ranchi",
+        "add": "Le-Desire Complex, Opp.Hari Om Tower Shop No. 06, 3rd floor,Thana Lalpur, District Ranchi (Jharkhand) 83400",
+        "person": "Amrendra Kumar",
+        "phone": "+91-9709196749",
+        "phone2": "+91-99159-99224"
+      },
+      {
+        "city": "DHANBAD",
+        "add": "Office No- 309 , 3rd Floor, Sri Ram Plaza, Bank More, Dhanbad -826001 jharkhan",
+        "person": "Vivek Tiwary",
+        "phone": "+91-7079424051",
+        "phone2": "+91-99159-99224"
+      }
+    ]
+  },
+  {
+    "state": "Assam",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-assam.jpg",
+    "contacts": [
+      {
+        "city": "Guwahati",
+        "add": "2nd Floor,Divine Plaza,opposite Secretariate,,G.S.Road,Guwahati(781005",
+        "person": "Bikramjeet Singh",
+        "phone": "+91-88118-25181",
+        "phone2": "+91-99159-99224"
+      }
+    ]
+  },
+  {
+    "state": "Andra Pradesh",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-vijaywada.jpg",
+    "contacts": [
+      {
+        "city": "Vijayawada",
+        "add": "Dr no 31-23-32/43 opposite vijayakrishna super bazar, opposite vijayakrishna super bazar,machavaram,elore road,krishna dist,vijayawada,ap,pin 520004",
+        "person": "V. Sreenivasa Rao",
+        "phone": "+91-9032525353",
+        "phone2": "+91-8978295401"
+      }
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "backimg": "http://www.cuchd.in/contact/images/cu-address-ahmedabad.jpg",
+    "contacts": [
+      {
+        "city": "Ahmedabad",
+        "add": "office no.-5, First Floor, Punyabhoomi Shopping Center, Darpan Six Road, Navrangpura, Ahmedabad",
+        "person": "Ganesh Dutt",
+        "phone": "+91-9909257791",
+        "phone2": "+91-8146651593"
+      }
+    ]
+  }
+]

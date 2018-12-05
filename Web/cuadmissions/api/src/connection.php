@@ -1,9 +1,8 @@
 <?php
-$servername="localhost";
-$username="root";
-$password="";
-$dbname="fasttrack";
-
+$servername="mysql.hostinger.in";
+$username="u764646568_zing";
+$password="amazing";
+$dbname="u764646568_ft";
 $con=NULL;
 try{
 	$con=new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

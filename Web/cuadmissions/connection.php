@@ -1,8 +1,8 @@
 <?php
-$servername="localhost";
-$username="root";
-$password="";
-$dbname="fasttrack";
+$servername="mysql.hostinger.in";
+$username="u332240463_cuadm";
+$password="amazing";
+$dbname="u332240463_ft";
 
 $con=NULL;
 try{

@@ -1,0 +1,207 @@
+{
+  "aboutcity": {
+    "cityname": "Chandigarh",
+    "cityinfo": "Chandigarh, the capital of the northern Indian states of Punjab and Haryana, was designed by the Swiss-French modernist architect, Le Corbusier. His buildings include the Capitol Complex with its High Court, Secretariat and Legislative Assembly, as well as the giant Open Hand Monument. The nearby Rock Garden is a park featuring sculptures made of stones, recycled ceramics and industrial relics.",
+    "cityimg": "https://chandigarhmetro.com/wp-content/uploads/2017/03/chd.jpg",
+    "coordinates": {
+      "lat": 30.74033315390708,
+      "lon": 76.7832529286652
+    }
+  },
+  "places": [
+    {
+      "name": "Rock Garden of Chandigarh",
+      "timeopen": 9,
+      "timeclose": 17,
+      "info":[
+      {
+      "info":"The Rock Garden of Chandigarh is a sculpture garden in Chandigarh, India. It is also known as Nek Chand's Rock Garden after its founder Nek Chand, a government official who started the garden secretly in his spare time in 1957."
+      },
+      {"info":"Nek Chand was given a salary, a title (Sub-Divisional Engineer, Rock Garden), and 50 laborers so that he could concentrate full-time on his work"
+      }
+      ] ,
+      "image": "http://chandigarhdiaries.com/wp-content/uploads/2017/06/30302_10877.jpg",
+      "redir": "https://en.wikipedia.org/wiki/Rock_Garden_of_Chandigarh",
+      "coordinates": {
+        "lat": 30.752135766346036,
+        "lon": 76.80854079525761
+      },
+      "album":[
+      {
+       "img":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRqtmGeMttYB51cBIW5J0Z9y6fAOLEmJFNxI9YxgGscqvodjMfa"
+      },
+      {"img":"http://www.thehomefoundation.com/Ch-CRG-10.JPG"
+      },
+      {"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJftnxT2ys0h2vqewOcsZUemcUVF9KTj5bOb_EUcxq3PWsCNoy5CFalriZQ"
+      },
+      {"img":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLOZreFiAMCTxSGrSHAcfg3e5to8ky4SPySUjw9OM-4purOzINgbTOnkULVg"
+      },
+      {"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNtwQio7hTuE6dyprbD5SMomm01rETE4uhPCkOaHd73QBdb86jURAyHu9CjQ"
+      }
+      ]
+    },
+        {
+      "name": "Elante Mall",
+      "timeopen": 8,
+      "timeclose": 24,
+      "info":[
+        {
+          "info":"Elante Mall is a shopping mall in the city of Chandigarh in India. With the gross leasable area of 1,150,000 sq ft, it is the second largest shopping mall in Northern India and the eleventh largest in India. Elante is spread over an area of 20 acres. It is part of a mixed use real estate development project by Larsen & Toubro called Elante."
+        },
+        {
+          "info":"Elante Mall has a retail space area of over 1 million square feet. It has 2 main gates, one is on the big front entry and another one is on the back. It has 3 basement levels, a ground level and three upper levels. In the retail area, Elante Mall hosts retailers of various Indian and international brands, a food court and a courtyard full of cafes. The Mall has an 8-screen Multiplex of PVR Cinemas. On its top floor, the mall has restaurants, fast food joints and a Fun City for kids entertainment."
+        }
+      ] ,
+      "image": "https://en.wikipedia.org/wiki/Elante_Mall#/media/File:Elante_Mall,_Chandigarh.jpg",
+      "redir": "https://en.wikipedia.org/wiki/Elante_Mall",
+      "coordinates": {
+        "lat": 30.706065,
+        "lon": 76.800802
+      },
+      "album":[
+      {
+       "img":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQV3CKVdLBYgLymgRLo50jsTanU4ZpOre4wIF33OwsAOAE3Tos4lOcW0CxD"
+      },
+      {"img":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqOMfgDTN8ND38lCMRHjhK9Ssobtq3vo7twmMHVQqHeYEPAKt_7-inwSuB"
+      },
+      {"img":"http://images.cxotoday.com.indmum.s3-ap-south-1.amazonaws.com/2018/03/pvr_s4kbe.jpg"
+      },
+      {"img":"https://static.punjabkesari.in/multimedia/2017_5image_21_42_3016978742-ll.jpg"
+      },
+      {"img":"https://www.lntecc.com/homepage/BuildFact/galleryrecreation/data/images/interior_view_of_elante_mall,_chandigarh.jpg"
+      }
+      ]
+    },
+            {
+      "name": "Sukhna Lake",
+      "timeopen": 8,
+      "timeclose": 20,
+      "info":[
+        {
+          "info":"Sukhna Lake in Chandigarh, India, is a reservoir at the foothills (Shivalik hills) of the Himalayas. This 3 km² rainfed lake was created in 1958 by damming the Sukhna Choe, a seasonal stream coming down from the Shivalik Hills. Originally the seasonal flow entered the lake directly causing heavy siltation. To check the inflow of silt, 25.42 km² of land was acquired in the catchment area and put under vegetation. In 1974, the Choe was diverted and made to bypass the lake completely, the lake being fed by three siltation pots, minimising the entry of silt into the lake itself."
+        },
+        {
+          "info":"Sukhna Lake is an awesome place to visit either with your family or friends. Anybody visiting Chandigarh fro outside must go there. Try the food there its very good. Go for boating. Sit alongside lake and just enjoy the beauty of nature. Localities go for jog here. Games for children are also available."
+        }
+      ] ,
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSUOlo6PTGONSDRP6cLnz0aw8KkGoa9Naqh4IUaanUN9DNob1ecMPcMN2hQ",
+      "redir": "www.google.com",
+      "coordinates": {
+        "lat": 30.742138,
+        "lon": 76.818756
+      },
+      "album":[
+      {
+       "img":"http://ramavana.com/dreamtrails/SukhnaLake1.JPG"
+      },
+      {"img":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRcQnaFiW2DIbw_njUMI2Ro4o5bukK2cxkkvCXUY2k1OlONZzG6On-NlcBb"
+      },
+      {"img":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEjC9l6FHD7q9iIQKFuRVjjIXKXKJCUtkZPSAJ4D1j0gFHA4BLg71mGt_a"
+      },
+      {"img":"https://image3.mouthshut.com/images/imagesp/925752457s.jpg"
+      },
+      {"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAJLtMbJ5ntNFJCfDO89Mq4X8sfyuGnI8uwELkv3qnYSpRMKLY_Q"
+      }
+      ]
+    },
+            {
+      "name": "Chhatbir Zoo",
+      "timeopen": 9,
+      "timeclose": 17,
+      "info":[
+        {
+          "info":"Also known as the Mahendra Chaudhary Zoological Park, Chhatbir zoo, the distinguished zoological garden is  located at a distance of 17 km from Chandigarh and 55 km from Patiala. The  zoo sprawls across an expanse of 202 acres against a stunning green backdrop."
+        },
+        {
+          "info":"It is indeed a marvel to see how acres of raw scrubland have been transformed into a wonderful home for wild animals. The zoo paints a magnificent picture of the underlying ecological harmony that enhances the charm of the beautiful surroundings. The animals are kept in open enclosures so that their behavioral and physical needs can be met akin to their natural habitat | Chhatbir zoo photos
+
+The main attraction of the Chhatbir zoo Chandigarh is the Royal Bengal Tiger, which has developed into the perfect point of interest for visiting the zoo. Visitors are taken in a caged motor vehicle to the tiger’s refuge to savor its attractions. While traveling inside the tiger’s refuge, the visitors can enjoy close ups of this magnificent animal."
+        }
+      ] ,
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQKNBCM5AUhI3VJpgT-evHxKumwZxeuE9B3v5CpC5Q-q9zwbgXXrd8x5C1",
+      "redir": "",
+      "coordinates": {
+        "lat": 30.603913,
+        "lon": 76.792463
+      },
+      "album":[
+      {
+       "img":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSzaBbetbqMopJMdTWcOC6IAQ_nWge7OvJ_FMElKcNh3YluBu2Bw"
+      },
+      {"img":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRSGqjqdPnxSGzZX47npfQyrHfcbirV88AFf2L4nlBkB6acX4kBBEUbc42SgA"
+      },
+      {"img":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRKpUcL_ZLjeEdk1NHutdmN8WJG3kvbzGiH3r1qRS12YwzkeQSdd8k9sBN8A"
+      },
+      {"img":"http://www.40kmph.com/wp-content/uploads/2015/05/White-Indian-Peafowl-at-Chhatbir-Zoo-Chandigarh-Patiala-Road-Punjab.jpg"
+      },
+      {"img":"https://www.trawell.in/admin/images/upload/472763576Chandigarh_Chhatbir_Zoo_Main.jpg"
+      }
+      ]
+    },
+            {
+      "name": "Pinjore Garden",
+      "timeopen": 7,
+      "timeclose": 22,
+      "info":[
+        {
+          "info":"Chandigarh Pinjore Gardens, also called Yadavindra Gardens are 20 km from Chandigarh, 15 km from Panchkula, on the Chandigarh Shimla national highway number 21. Taxis and buses ply regularly between Pinjore, Kalka, Panchkula and Chandigarh."
+        },
+        {
+          "info":"The fascinating Mughal Garden (now popularly called Pinjore Garden) cover a total area of 100 acres. A mini zoo, plants nursery, a Japanese garden, historic palaces and picnic lawns await tourists. Especially at weekends, fountains are switched on and after dusk, lights pick up the beauty of the palaces by night."
+        }
+      ] ,
+      "image": "https://www.thebetterindia.com/wp-content/uploads/2017/08/PinJo1.jpg",
+      "redir": "http://www.chandigarh.exploreindia.in/pinjore-gardens.asp",
+      "coordinates": {
+        "lat": 30.794088,
+        "lon": 76.914711
+      },
+      "album":[
+      {
+       "img":"http://www.haryanatourism.gov.in/WriteReadData/mediafiles/image/pinjore1.jpg"
+      },
+      {"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Yadvindra_Mughal_Gardens%2C_Pinjore%2C_Haryana.jpeg/300px-Yadvindra_Mughal_Gardens%2C_Pinjore%2C_Haryana.jpeg"
+      },
+      {"img":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTPG6-8Eyg4TNlNEnVW0WxWTVaB1rsfQmgp72PBm88Fa843Qubpo9BbERUScA"
+      },
+      {"img":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDULeTyCt8846iT3F6ruZspWBcrrJPbgg5zZc64OxC1J4K3vmLHor18Q4-"
+      },
+      {"img":"http://static.sunweb.co.in/gochandigarh/pinjore3.jpg"
+      }
+      ]
+    },
+            {
+      "name": "Fun City",
+      "timeopen": 10,
+      "timeclose": 18,
+      "info":[
+        {
+          "info":"FUNCITY, the biggest Amusement Park and Water Park in entire northern region, is spread over 43 acres of scenic land. Just 20 Kms from Chandigarh on the Panchkula – Barwalla Nadha Sahib Gurudwara Highway near Ramgarh. It is unique combination of Amusement Park, Water Park and Resort."
+        },
+        {
+          "info":"Other popular draws are the lazy river ride, splash pool, aqua dance, slides like white multi lane, typhoon tunnel, white slide, red dragon slide, run away raft slide and pendulum slide."
+        }
+      ] ,
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2lxXCkM20NZhAOWMx-By0SCAyxcUfCPU5CXkXW5SW9i3BBRCMR3v5IgMa",
+      "redir": "",
+      "coordinates": {
+        "lat": 30.637926,
+        "lon": 76.892455
+      },
+      "album":[
+      {
+       "img":"https://lh5.googleusercontent.com/proxy/61fX38GVKyPrCfsGR7nmrvGe67113RgIdgJ8pHvkaF-HbOhfOpzP5xYFOAYRmemMhh3gYSPPhsgg8j2iONmr75o6pBjRPgnavLo-xtRmHRH9NdT7K_RKuxI_zQDQtQ=w530-h277-nc"
+      },
+      {"img":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR1XS1OSZKCN7kDz7ChHBzqMCe_eEmRgATBbbSH57kRzf4ESLsOYazl6VqN_A"
+      },
+      {"img":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQu3ucMrZmCzI53GXenczq6U669OgfZal1eOxD2J6dlIXzuf4bswQ"
+      },
+      {"img":"https://in.bmscdn.com/Events/Media/2018/apr-jun/et00073750_25.jpg"
+      },
+      {"img":"http://www.10deals.in/uploads/images/thumbnails/415d264720470e2b98b57fe519a49201.jpg"
+      }
+      ]
+    }
+    
+  ]
+}
